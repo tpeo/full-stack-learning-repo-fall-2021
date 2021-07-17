@@ -61,6 +61,8 @@ npm uninstall -g resume-cli
 # Deliverables
 Push your changes with your exported resume file in the repository
 
+![Resume](./assets/resume_example.PNG)
+
 ## Links
 - [JSON Resume Website ](https://jsonresume.org/) 
 - [JSON Resume Github Page](https://github.com/jsonresume/resume-cli)
