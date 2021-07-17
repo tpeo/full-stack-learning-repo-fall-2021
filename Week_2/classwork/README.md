@@ -1,11 +1,3 @@
-# Week 2: Working with JSON
-
-
-# Learning Objectives
-- Learning what JSON is, some of it's many use cases, and interacting with it 
-- High level understanding of REST API's and HTTP Verbs
-- Git 
-
 # Classwork
 It's recruiting season and we're going to help you create your very own resume using JSON. The JSON will be pre-populated but its your job to modify it to your liking. There are no formal requirements for this assignment, but you should understand the different elements that go into a JSON file (**Strings, Numbers, Dictionaries/Objects, and Arrays**).  
 
@@ -43,16 +35,3 @@ Make sure you have NPM installed on your machine before proceeding
     ```
     resume export resume.html
     ```
-## Deliverables
-Push your changes with your exported resume file in the repository
-
-### Links
-- [JSON Resume Website ](https://jsonresume.org/) 
-- [JSON Resume Github Page](https://github.com/jsonresume/resume-cli)
-
-
-## Homework
-No homework this week, finish the resume project you started in class
-
-## Materials
-- [Week 2 Slides](https://docs.google.com/presentation/d/1qUem7kvlVGblh6rOPugepUgLxjmQyPVx71GJoVGtcMY/edit#slide=id.p)
