@@ -43,16 +43,16 @@ Make sure you have NPM installed on your machine before proceeding
     ```
     resume export resume.html
     ```
-## Deliverables
+# Deliverables
 Push your changes with your exported resume file in the repository
 
-### Links
+## Links
 - [JSON Resume Website ](https://jsonresume.org/) 
 - [JSON Resume Github Page](https://github.com/jsonresume/resume-cli)
 
 
-## Homework
+# Homework
 No homework this week, finish the resume project you started in class
 
-## Materials
+# Materials
 - [Week 2 Slides](https://docs.google.com/presentation/d/1qUem7kvlVGblh6rOPugepUgLxjmQyPVx71GJoVGtcMY/edit#slide=id.p)
