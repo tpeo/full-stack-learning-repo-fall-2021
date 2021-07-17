@@ -1,5 +1,5 @@
 # Backend Education Repository Fall 2021
-Learning repository for our new engineering fellows for Fall 2021
+Welcome new Engineering Fellows! This is a Learning repository for our Fall 2021 Backend Curriculum
 
 # Fork Environment
 This repository will be using a fork structure, meaning that fellows will **commit to their own local respository** while **pulling new weekly content from this one**. Weekly content will be updated on the master branch, but a copy of all previous week's content will be available via branches.
