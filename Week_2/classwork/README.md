@@ -35,3 +35,18 @@ Make sure you have NPM installed on your machine before proceeding
     ```
     resume export resume.html
     ```
+## Troubleshooting
+1. If you encounter an error like the one below 
+    ```
+    $ resume export resume.pdf 
+    > Error: theme path jsonresume-theme-even could not be resolved from current working directory ...
+    ```
+    it means that the resume-cli doesn't access to the default theme (which is kind of bad) and can fix it by installing the theme using
+    ```
+    $ npm install jsonresume-theme-even
+    ```
+## Clean Up
+Optionally, you can uninstall the resume-cli package by performing
+```
+npm uninstall -g resume-cli
+```
