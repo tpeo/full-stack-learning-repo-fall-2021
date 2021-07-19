@@ -6,9 +6,9 @@ This repository will be using a fork structure, meaning that fellows will **comm
 
 **Note: From now on we will be referring to the tpeo/backend-learning-repo project as the **main** repo and other repositories as the **forked** repo. 
 ## Forking the Repository 
-
+Navigate to a directory where you'd like to keep all your projects. If you haven't already, we would recommend creating a folder like ```GitHub_Projects```
 1. Go onto the **main** repository's Github page and click the **Fork** button
-2. Clone the repository locally by performing 
+2. Clone the repository locally in your project folder of choice by performing 
     ``` 
     git clone <your-repo-url>
     ```
