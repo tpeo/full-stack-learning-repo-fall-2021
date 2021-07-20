@@ -7,7 +7,7 @@
 - Git: basic commands, workflow, and forking 
 
 # Classwork
-It's recruiting season and we're going to help you create your very own resume using JSON. The JSON will be pre-populated but its your job to modify it to your liking. There are no formal requirements for this assignment, but you should understand the different elements that go into a JSON file (**Strings, Numbers, Dictionaries/Objects, and Arrays**).  
+It's recruiting season and we're going to help you create your very own resume using JSON. The JSON will be pre-populated but its your job to modify it to your liking. There are no formal requirements for this assignment, but you should understand the different elements that go into a JSON file (**Strings, Numbers, Objects, Booleans, and Arrays**).  
 
 The JSON will be generated using the json-resume command line interface **(CLI)** which will help generate beautiful html/pdf files of your resume.   
 
