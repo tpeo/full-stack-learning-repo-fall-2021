@@ -75,4 +75,5 @@ Push your changes with your exported resume file in the repository
 No homework this week, finish the resume project you started in class
 
 # Materials
-- [Week 2 Slides](https://docs.google.com/presentation/d/1qUem7kvlVGblh6rOPugepUgLxjmQyPVx71GJoVGtcMY/edit#slide=id.p)
+- [Week 1 Backend Slides](https://docs.google.com/presentation/d/1FIdwfpNScTCGYxouDfl9vwz7twEQlyFttL12n_UVzn4/edit?usp=sharing)
+- [Week 1 Frontend Slides](https://docs.google.com/presentation/d/1kFshHtUDc_a4WUUq85yJ_bSh2fh497uoB__xQiOarGQ/edit?usp=sharing)
