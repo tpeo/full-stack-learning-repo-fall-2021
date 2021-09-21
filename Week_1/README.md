@@ -1,5 +1,4 @@
-# Week 2: Working with JSON
-
+# Week 1: Working with JSON
 
 # Learning Objectives
 - Learning what JSON is, some of it's many use cases, and interacting with it 
