@@ -54,7 +54,7 @@ You should pull approximately every week when new content arrives. These steps w
     ```
 
 ## Suggesting Changes to the Main Repository 
-We realize that like everyone, we're not perfect so we'd love to hear constructive feedback. To suggest a change, open a pull request to the main repository and we'll get on it ASAP. 
+We realize that like everyone, we're not perfect so we'd love to hear constructive feedback. To suggest a change, open a pull request to the main repository and we'll get on it ASAP. Please DO NOT push directly to the main branch unless permitted to do so.
 
 # Content
 ## Week 1: Introduction to Full Stack Development, Environment Setup
