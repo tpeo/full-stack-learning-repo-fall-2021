@@ -3,7 +3,11 @@
 # Materials
 - [Week 1 Backend Slides](https://docs.google.com/presentation/d/1FIdwfpNScTCGYxouDfl9vwz7twEQlyFttL12n_UVzn4/edit?usp=sharing)
 - [Week 1 Frontend Slides](https://docs.google.com/presentation/d/1kFshHtUDc_a4WUUq85yJ_bSh2fh497uoB__xQiOarGQ/edit?usp=sharing)
-
+- [Git Katas](https://github.com/eficode-academy/git-katas)
+   - [basic-commits](https://github.com/eficode-academy/git-katas/tree/master/basic-commits)
+   - [basic-staging](https://github.com/eficode-academy/git-katas/tree/master/basic-staging)
+   - [basic-branching](https://github.com/eficode-academy/git-katas/tree/master/basic-branching)
+   - [basic-revert](https://github.com/eficode-academy/git-katas/tree/master/basic-revert)
 # Homework
 It's recruiting season and we're going to help you create a JSON file containing your resume! The goal of this homework assignment is to familiarize you with JSON. Please follow the instructions very carefully to ensure that your JSON’s schema is valid for future homework assignments.
 
