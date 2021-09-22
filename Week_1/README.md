@@ -18,7 +18,7 @@ Make sure you have a text editor installed on your machine before proceeding.
         - A key-value pair with the key called “email” and the value as your email
         - A key-value pair with the key called “phone” and the value as your phone number in “(###) ###-####” format
         - A key-value pair with the key called “summary” and the value as a brief summary about yourself
-        - A “location” object with the following values:
+        - A key-value pair with the key called “location” with the value as an object with the following properties:
             * A key-value pair with the key called “address” and the value as your street address
             * A key-value pair with the key called “postalCode” and the value as your postal code 
             * A key-value pair with the key called “city” and the value as your city’s name
