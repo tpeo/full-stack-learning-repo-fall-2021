@@ -1,5 +1,11 @@
 # Full Stack Learning Repository Fall 2021
-Welcome new Engineering fellows! This respotiory will serve as our Fall 2021 Backend and Frontend curriculum, including lessons, slides, and homework. By the end of the semester, you should be able to confidently create your own web applications using React and Firebase.
+Welcome new Engineering fellows! This respotiory will serve as our Fall 2021 Backend and Frontend curriculum, including slides, and homework. By the end of the semester, you should be able to confidently create your own web applications using React and Firebase.
+
+## Slack Link
+https://join.slack.com/share/zt-wc9zh3wh-SAvkU5iw6yzWx7EM34vAVA
+
+## Webpage
+https://txproduct.org/Full-Stack-Engineering-bb7fd893a34c4cdb909a5ffb4ccea3a3
 
 # Fork Environment
 This repository will be following a fork structure, meaning that fellows will **commit to their own local respository** while **pulling new weekly content from this one upstream**. Weekly content will be updated on the master branch, but a copy of all previous week's content will be available via branches.
@@ -54,7 +60,4 @@ You should pull approximately every week when new content arrives. These steps w
     ```
 
 ## Suggesting Changes to the Main Repository 
-We realize that like everyone, we're not perfect so we'd love to hear constructive feedback. To suggest a change, open a pull request to the main repository and we'll get on it ASAP. Please DO NOT push directly to the main branch unless permitted to do so.
-
-# Content
-## Week 1: Introduction to Full Stack Development, Environment Setup
+We realize that like everyone, we're not perfect so we'd love to hear constructive feedback. To suggest a change, open a pull request to the main repository and we'll get on it ASAP. **Please DO NOT push directly to the main branch unless permitted to do so.**
