@@ -33,7 +33,7 @@ Make sure you have a text editor installed on your machine before proceeding.
         - A key-value pair with the key called “summary” and the value as a description of what you did for that work experience
     *	A key-value pair with the key called “education” and the value as an array of objects. There should only be one object in the array representing your college education at UT Austin:
         - A key-value pair with the key called “institution” and the value as “The University of Texas at Austin”
-        - A key-value pair with the key called “url” and the value as “https://www.utexas.edu/”
+        - A key-value pair with the key called “url” and the value as https://www.utexas.edu/
         - A key-value pair with the key called “area” and the value as your primary major at UT Austin
         - A key-value pair with the key called “studyType” and the value as “Bachelor”
         - A key-value pair with the key called “startDate” and the value as the date you started attending UT Austin in “YYYY-MM-DD” format
