@@ -19,11 +19,11 @@ Make sure you have a text editor installed on your machine before proceeding.
         - A key-value pair with the key called “phone” and the value as your phone number in “(###) ###-####” format
         - A key-value pair with the key called “summary” and the value as a brief summary about yourself
         - A “location” object with the following values:
-            - A key-value pair with the key called “address” and the value as your street address
-            - A key-value pair with the key called “postalCode” and the value as your postal code 
-            - A key-value pair with the key called “city” and the value as your city’s name
-            - A key-value pair with the key called “countryCode” and the value as your country’s ISO 3166 alpha-2 code
-            - A key-value pair with the key called “region” and the value as your state’s name
+            * A key-value pair with the key called “address” and the value as your street address
+            * A key-value pair with the key called “postalCode” and the value as your postal code 
+            * A key-value pair with the key called “city” and the value as your city’s name
+            * A key-value pair with the key called “countryCode” and the value as your country’s ISO 3166 alpha-2 code
+            * A key-value pair with the key called “region” and the value as your state’s name
     * A key-value pair with the key called “work” and the value as an array of objects. Each object in the array should represent a current/previous work experience of yours and have the following properties:
         - A key-value pair with the key called “name” and the value as the name of the organization you worked at for that work experience 
         - A key-value pair with the key called “position” and the value as the position you hold/held for that work experience 
