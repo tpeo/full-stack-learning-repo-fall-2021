@@ -56,7 +56,7 @@ Make sure you have NPM installed on your machine before proceeding
     ```
     cd folderName/
     ```
-3. [Verify that your JSON matches the schema here](https://jsonresume.org/schema/). Some properties should be missing from your Resume.json file, which should be okay 
+3. [Verify that your JSON matches the schema here.] https://jsonresume.org/schema/). Some properties should be missing from your Resume.json file, which should be okay 
 
 4. Export your resume to one of the available formats by inputting 
     ```
