@@ -24,6 +24,7 @@ Make sure you have a text editor installed on your machine before proceeding.
 
 ## Things to Google
 Good engineers know how to learn on their own. Here are a couple of topics that might be helpful to Google:
+- How to read JSON files with JavaScript
 - Unordered lists in HTML
 - Displaying Emails in HTML
 - Headers in HTML
