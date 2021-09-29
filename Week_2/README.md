@@ -14,6 +14,11 @@ Make sure you have a text editor installed on your machine before proceeding.
 3. Code a website in index.html that extracts displays all the information from the JSON resume you created last week. You will need to use your JavaScript skills to parse the JSON. Please follow the design of the site linked below. 
 4. Save the completed site.
 
+## Requirements
+- Places you work/have worked at should link to the company's website
+- The University of Texas at Austin should link to the school's website
+- Certain elements in an array should be displayed inside bulleted lists for better organization
+
 ## Design
 [Your website should look similar to this when finished.](https://www.figma.com/file/6fc92eAV2G17uSPh4jlnh3/JSON-Resume?node-id=2%3A2)
 
