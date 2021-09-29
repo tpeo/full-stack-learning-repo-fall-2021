@@ -11,7 +11,7 @@ Now that you have created your JSON resume, its time to turn into a website!
 Make sure you have a text editor installed on your machine before proceeding. 
 1. Open your text editor of choice inside the homework directory.
 2. Create a new file called index.html.
-3. Code a website in index.html that extracts displays all the information from the JSON resume you created last week. You will need to use your JavaScript skills to parse the JSON. Please follow the design of the site linked below. 
+3. Code a website in index.html that extracts displays all the information from the JSON resume you created last week. You will need to use your JavaScript skills to parse the JSON.
 4. Save the completed site.
 
 ## Requirements
