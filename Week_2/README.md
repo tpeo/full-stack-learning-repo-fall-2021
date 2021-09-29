@@ -1,4 +1,4 @@
-# Week 1: Getting Started/Debugging and Basic Tools
+# Week 2: JavaScript/HTML
 
 # Materials
 - [Week 2 Backend Slides](https://docs.google.com/presentation/d/1iWpmcWsE_4FNhXOm_S3NdeY6LhCJPQzBGlF2mD209fI/edit?usp=sharing)
@@ -15,7 +15,7 @@ Make sure you have a text editor installed on your machine before proceeding.
 4. Save the completed site.
 
 ## Design
-[Your website should look this when finished.](https://www.figma.com/file/6fc92eAV2G17uSPh4jlnh3/JSON-Resume?node-id=2%3A2)
+[Your website should look similar to this when finished.](https://www.figma.com/file/6fc92eAV2G17uSPh4jlnh3/JSON-Resume?node-id=2%3A2)
 
 ## Things to Google
 Good engineers know how to learn on their own. Here are a couple of topics that might be helpful to Google:
