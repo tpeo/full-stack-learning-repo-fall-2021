@@ -6,7 +6,7 @@
 
 # Week 1 Homework Solution
 If you completed your JSON, it should look something like this:
-<code>
+```javascript
 {
     basics: {
         name: "Bevo Longhorn",
@@ -71,7 +71,7 @@ If you completed your JSON, it should look something like this:
         }
     ]
 };
-</code>
+```
 
 # Homework
 Now that you have created your JSON resume, its time to turn into a website! 
