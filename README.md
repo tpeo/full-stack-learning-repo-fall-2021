@@ -1,5 +1,5 @@
 # Full Stack Learning Repository Fall 2021
-Welcome new Engineering fellows! This respotiory will serve as our Fall 2021 Backend and Frontend curriculum, including slides, and homework. By the end of the semester, you should be able to confidently create your own web applications using React and Firebase.
+Welcome new Engineering fellows! This respotiory will serve as our Fall 2021 Backend and Frontend curriculum, including slides, and homework. By the end of the semester, you should be able to confidently create your own web applications using React and Firebase!
 
 ## Slack Link
 https://join.slack.com/share/zt-wc9zh3wh-SAvkU5iw6yzWx7EM34vAVA
