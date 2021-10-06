@@ -80,9 +80,9 @@ Now that you have created your JSON resume, its time to turn into a website!
 Make sure you have a text editor installed on your machine before proceeding. 
 1. Open your text editor of choice inside the homework directory.
 2. Open the file called index.html.
-4. Inside the `<script>` tags for index.html, create a JavaScript object called "resume" that contains the properties of the JSON resume you created last week. Recall that JSON are JavaScript objects so you can just copy the JSON and set it is a variable. 
-3. Parse the "resume" object and generate HTML using JavaScript to create a website based on the design below.
-4. Save the completed site.
+3. Inside the `<script>` tags for index.html, create a JavaScript object called "resume" that contains the properties of the JSON resume you created last week. Recall that JSON are JavaScript objects so you can just copy the JSON and set it is a variable. 
+4. Parse the "resume" object and generate HTML using JavaScript to create a website based on the design below.
+5. Save the completed site.
 
 ## Requirements
 - Places you work/have worked at should link to the company's website
