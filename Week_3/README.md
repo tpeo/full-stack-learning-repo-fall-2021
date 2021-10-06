@@ -22,8 +22,8 @@ Make sure you have a text editor installed on your machine and your own OpenWeat
 - Using a city's longitude and latitute, use OpenWeather's [One Call API](https://openweathermap.org/api/one-call-api) to get current weather conditions and a five day forecast for the city.
     - Once you have fetched the weather data, generate HTML elements that displays the current weather and the cards for five day forecast. We recommend you use a for loop to generate the cards for the five day forecast. 
 - Using a city's longitude and latitute, use OpenWeather's [Air Pollution API](https://openweathermap.org/api/air-pollution) to get current air quality index (AQI) for the city.
-- Use the .svg files in the icons folder to display the relevant graphics for the weather conditions. *Note how the name of the .svg files correspond to the [current.weather.icon and daily.weather.icon values](https://openweathermap.org/api/one-call-api#example) in the One Call API response.* We recommend having the value of the src attribute of the img tag to change dynamically based on API response. 
-- Style the website by adding CSS to the style.css file. 
+- Use the `.svg` files in the icons folder to display the relevant graphics for the weather conditions. *Note how the name of the `.svg` files correspond to the [current.weather.icon and daily.weather.icon values](https://openweathermap.org/api/one-call-api#example) in the One Call API response.* We recommend having the value of the `src` attribute of the <img> tag to change dynamically based on API response. 
+- Style the website by adding CSS to the `style.css` file. 
 
 ## Design
 [At a bare minimum, your website should look similar to this when finished.](https://www.figma.com/file/vKRFWIFsJ5WRJTvMNFXOiZ/Weather-App?node-id=2%3A213)
