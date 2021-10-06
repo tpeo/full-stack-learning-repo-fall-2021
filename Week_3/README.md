@@ -32,3 +32,6 @@ Make sure you have a text editor installed on your machine and your own OpenWeat
 Good engineers know how to learn on their own. Here are a couple of topics that might be helpful to Google:
 - CSS border-radius
 - Using the src attribute for the <img> tag to display .svg files
+
+# Bonus
+Flex 💪 your CSS skills by modifying the weather website to be as attractive as possible. Take a look at CSS background gradients and opacity to give your weather site a more modern look!
