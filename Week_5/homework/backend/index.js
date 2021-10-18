@@ -2,20 +2,22 @@ const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
 const dotenv = require("dotenv").config();
-var credentials = require("./cred").credentials;
+const credentials = require("./cred").credentials;
 
 // Connect to firebase and use firestore
 admin.initializeApp({
   credential: admin.credential.cert(credentials),
-  databaseURL: "https://delta-af605-default-rtdb.firebaseio.com",
+  databaseURL: "YOUR_DATABASE_URL_HERE",
 });
+
+// Intialize firestore instance
 const db = admin.firestore();
 
 // Define app and port
 const app = express();
 const port = process.env.PORT;
 
-// Middleware
+// More Middlware
 app.use(cors());
 app.use(express.json());
 
@@ -27,16 +29,6 @@ app.get("/users", async (req, res) => {
     users.push(doc.data());
   });
   return res.json({ msg: "Success", data: users });
-});
-
-// Get specific user by user_id
-app.get("/users/:user_id", async (req, res) => {
-  const rec = req.params.user_id;
-  const snapshot = await db.collection("users").doc(rec).get();
-  if (!snapshot.exists) {
-    res.json({ msg: "User does not exist", data: {} });
-  }
-  return res.json({ msg: "Success", data: snapshot.data() });
 });
 
 // Create user
@@ -59,5 +51,9 @@ app.post("/users", async (req, res) => {
     return res.send({ msg: "Success", data: data });
   }
 });
+
+// TODO: Create query for users that are older than a given value
+// OPTIONAL: Write a function to delete users from the database
+// OPTIONAL: Write a function to update user information
 
 app.listen(port, () => console.log(`Listening on Port ${port}!`));
