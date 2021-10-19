@@ -11,9 +11,18 @@
 
 # Firebase Cloud Functions
 
-To get y'all more familiar with Firebase hosting, we've added an hosted application on `/firebase` for y'all to inspect. You'll have to login to firebase with the CLI (command line interface) tool and connect it with your own project.
+To get y'all more familiar with Firebase hosting, we've added an hosted application on `/firebase` for y'all to inspect.
 
-To run the functions locally ...
+You'll have to login to firebase with the CLI (command line interface) tool, connect it with a project, and add functions into the project.
+
+1. `cd firebase`
+2. `firebase login`
+3. `firebase init`
+
+
+![](assets/initialize.png)
+
+To run and debug the functions locally ...
 
 1. Run `firebase emulators:start --only functions`
 
