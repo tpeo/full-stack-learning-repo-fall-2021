@@ -9,9 +9,19 @@
 
 <body>
 	<div id='main-container'>
-		<div id='weather-container'>
+		<div id ='current' style = 'display: none'>
+			<p id ='day'> </p>
+			<p id = 'cityWeather'></p>
+			<div id = 'currWeather'>
+				<p id = 'condition'></p>
+				<p id = 'degrees'></p>
+				<p id = 'aqi'></p>
+				<img id = 'conditionpic'> </img>
+			</div>
+		</div>
+		<div id='weather-container'>				
 		</div> 
-	</div>
+	</div>	
 	<div id='side-container'>
 		<div>
 			<input id='search-input' placeholder='search for a city'></input>
@@ -23,7 +33,7 @@
 
 <script>
 		// USE YOUR OWN API KEY
-		const apiKey = "";
+		const apiKey = "640a543a5d1619cb71690139ea7756fe";
 
         // variable that stores the city that is chosen
 		let city;
@@ -70,6 +80,7 @@
 				ul.classList.remove("hidden");
 				// clears out any list items from the previous search
 				ul.innerHTML = ''
+				console.log(searchResults)
 				// loops through each search result and creates and attaches a list item for the unordered list
 				searchResults.forEach((searchResult, index) => {
 					// creates a new unordered list element
@@ -99,7 +110,45 @@
 				lat: lat,
 				lon: lon
 			}
-            // BEGIN CODING HERE
+			let apiCall = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=${imperial}&appid=${apiKey}`
+			fetch (apiCall)
+				.then((response) =>
+					response.json()
+				)
+				.then((data) => {
+						// after recieving the converted JSON data, pass the JSON to the function
+						renderWeather(data)
+				})
+			}
+		function renderWeather(weatherData) {
+				// loops through each day and creates a weather card for each day
+				const currentWeather = document.getElementById('current')
+				currentWeather.style.display = 'block'
+				const day = document.getElementById('day')
+				day.innerHTML = formatDate()
+				const subtext = document.getElementById('cityWeather')
+				subtext.innerHTML = 'Weather for ' + city.fullName
+				const condition = document.getElementById('condition')
+				condition.innerHTML = weatherData.current.main
+				const degrees = document.getElementById('degrees')
+				degrees.innerHTML = weatherData.current.temp
+				weatherData.daily.forEach((day, index) => {
+					if (index < 4)
+						// creates a new unordered list element
+						const flex = document.createElement('div')
+						// sets the list item's class as search-result
+						const day = document.createElement('div')
+						day.innerHTML = formatDate(index + 1)
+						flex.appendChild(day)
+						// sets the text inside the list item as the name and state of the city 
+						const conditionPic = document.createElement('img')
+						conditionPic.src = "http://www.w3.org/2000/svg"
+						flex.appendChild(conditionPic)
+						// attaches the list item elements to search-results-list
+						const highLow = document.createElement('div')
+						highLow.innerHTML = day.temp.max + ' to ' + day.temp.min
+						flex.appendChild(highLow)
+			})	
 		}
 	</script>
 </html>

@@ -32,6 +32,8 @@
   }
   
   #weather-container {
+    display: flex;
+    justify-content: space-between;
     height: 60%;
     width: 90%;
   }
