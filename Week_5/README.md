@@ -1,12 +1,14 @@
-# Week 5: Hosting and Firestore
+# Week 5: Cloud Functions/Social
 
 # Materials
 
 - [Week 5 Backend Slides](https://docs.google.com/presentation/d/1EZm92RxIgzW_lp8Fx-tmGbDatfm2Q_TtDCE_qx6TM7E/edit?usp=sharing)
+- No frontend slides! Please attend the Palantir event! 
 
 # Week 4 Homework Solution
 
 - [Week 4 Backend Homework Solution](https://github.com/tpeo/full-stack-learning-repo-fall-2021/blob/Week_5/Week_4/homework/backend/index_solution.js)
+- [Week 4 Frontend Homework Solution](https://codesandbox.io/s/to-do-complete-vrxzf?file=/src/components/Header/Header.js)
 
 # Firebase Cloud Functions
 
@@ -36,8 +38,11 @@ To deploy the functions to your cloud ...
 For more information visit the [Firebase Website](https://firebase.google.com/docs/hosting/test-preview-deploy)
 
 # Homework
+If you have not completed the in-class activity for the backend class, please complete it as homework. We are reaching the midpoint of the course, so please [fill out the this survey to help us improve the class in the future!](https://docs.google.com/forms/d/e/1FAIpQLSd0_nwS1k-JYjLmUDY2hWe2qswObU3ZzwXQuPULE0W9NmPnZQ/viewform?usp=sf_link) 
 
-If you have not completed the in-class activity for the backend class week 4, please do so on your own time. This week's activity will have some connection to last week as you are still writing your ExpressJS REST API, but instead of using a JSON object as a database, we'll be connecting to Firebase and more specifically, Firestore.
+In addition, *engineering fellows please share the link to your personal GitHub repository for this class on Slack by this Saturday evening.* We will begin grading your existing homework, so please take this week to complete any homework that you have not yet finished! 
+
+This week's activity will have some connection to last week as you are still writing your ExpressJS REST API, but instead of using a JSON object as a database, we'll be connecting to Firebase and more specifically, Firestore.
 
 Like last week, we're still dealing with a user database with name and age. Additionally, we have already written two functions for you (GET all users and CREATE a new user). **We want you to extend the functionality of the API by writing an API endpoint to query users in the database, returning users whose age is above a certain query value.**
 
