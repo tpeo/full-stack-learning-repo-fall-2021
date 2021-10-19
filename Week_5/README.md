@@ -3,7 +3,6 @@
 # Materials
 
 - [Week 5 Backend Slides](https://docs.google.com/presentation/d/1EZm92RxIgzW_lp8Fx-tmGbDatfm2Q_TtDCE_qx6TM7E/edit?usp=sharing)
-- [Week 5 Frontend Slides](https://docs.google.com/presentation/d/1m7bhkKPdljzQkA8vNb4yvRUpdg72j7WQnrpltOcWQlU/edit?usp=sharing)
 
 # Week 4 Homework Solution
 
@@ -21,6 +20,9 @@ You'll have to login to firebase with the CLI (command line interface) tool, con
 
 
 ![](assets/initialize.png)
+
+4. Add your credentials json file as `cred.json` under `functions/`
+
 
 To run and debug the functions locally ...
 
