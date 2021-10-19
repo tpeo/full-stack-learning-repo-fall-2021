@@ -91,9 +91,34 @@ app.post("/user", (req, res) => {
 
 // Updating a User
 app.put("/user/:user_id", (req, res) => {
+  const body = req.body;
+  // Checks if user exists
+  let exists = false;
+  for (var key in users) {
+    if (users[key]["id"] == body.id) {
+      exists = true;
+      users[key]["age"] = body.age
+      users[key]["name"] = body.name
+      const updated_user = users[key]
+    }
+  }
+  if (!exists) {
+    return res.json({ msg: "Error: User does not exist", data: {} });
+  }
+  return res.json({msg: "Success", data: updated_user})
   //TODO
 });
 // Deleting a User
 app.delete("/user/:user_id", (req, res) => {
+  let exists = false;
+  for (var key in users) {
+    if (users[key]["name"] == body.name) {
+      exists = true;
+      delete users[key]
+    }
+  }
+  if (!exists) {
+    return res.json({ msg: "Error: name doesn't exist", data: {} });
+  }
   //TODO
 });
