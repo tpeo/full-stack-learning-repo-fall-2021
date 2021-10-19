@@ -22,6 +22,7 @@ You'll have to login to firebase with the CLI (command line interface) tool, con
 ![](assets/initialize.png)
 
 4. Add your credentials json file as `cred.json` under `functions/`
+5. Nagivate to `functions/index.js` and update `databaseURL: "ENTER_URL_DATABASE"`
 
 
 To run and debug the functions locally ...
