@@ -2,14 +2,14 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
-var serviceAccount = require("./cred2.json");
+var serviceAccount = require("./cred.json");
 
 // Connect to firebase and use firestore
 
-// admin.initializeApp({
-//   credential: admin.credential.cert(serviceAccount),
-//   databaseURL: "ENTERPROJECTHERE",
-// });
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+  databaseURL: "ENTER_URL_DATABASE",
+});
 
 // Intialize firestore instance
 const db = admin.firestore();
