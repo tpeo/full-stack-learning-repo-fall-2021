@@ -71,6 +71,7 @@ app.get("/users/:age", async (req, res) => {
 
   return res.json({ msg: "Success", data: users });
 });
+
 // OPTIONAL: Write a function to delete users from the database
 // OPTIONAL: Write a function to update user information
 
