@@ -31,20 +31,10 @@ const books = [
   },
 ];
 
-app.use("/books", authMiddleware);
+app.use("/", authMiddleware);
 
 app.get("/books", (request, response) => {
   return response.send({ books });
-});
-app.post("/login", async (req, res) => {
-  await firebase
-    .auth()
-    .createCustomToken(uid)
-    .then((token) => {
-      console.log(token);
-      return res.json({ msg: "HELLO WORLD", data: token });
-    });
-  // return res.json({ msg: "HELLO WORLD" });
 });
 
 app.listen(4000, () => console.log("The server is running at PORT 4000"));
