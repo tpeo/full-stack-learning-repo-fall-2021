@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const admin = require("firebase-admin");
 const dotenv = require("dotenv").config();
-const credentials = require("./cred").credentials;
+const credentials = require("./cred.json");
 
 // Connect to firebase and use firestore
 admin.initializeApp({
@@ -53,6 +53,24 @@ app.post("/users", async (req, res) => {
 });
 
 // TODO: Create query for users that are older than a given value
+app.get("/users/:age", async (req, res) => {
+  const age = parseInt(req.params.age);
+  // Invalid Parameters
+  if (isNaN(age)) {
+    return res.status(400).json({ msg: "Invalid Input" });
+  }
+
+  // Verify the validity of the age parameter
+  const snapshot = await db.collection("users").where("age", ">=", age).get();
+  const users = [];
+
+  // Iterate Through each element
+  snapshot.forEach((doc) => {
+    users.push(doc.data());
+  });
+
+  return res.json({ msg: "Success", data: users });
+});
 // OPTIONAL: Write a function to delete users from the database
 // OPTIONAL: Write a function to update user information
 
