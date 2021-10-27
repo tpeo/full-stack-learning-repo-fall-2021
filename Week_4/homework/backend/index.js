@@ -91,9 +91,32 @@ app.post("/user", (req, res) => {
 
 // Updating a User
 app.put("/user/:user_id", (req, res) => {
+  // Checks if user exists
+  const user_id = req.params.user_id;
+  const body = req.body
+  // Check if all valid fields exist
+  if (body.age == undefined && body.name == undefined) {
+    return res.json({
+      msg: "Error: age or name not defined in request",
+      data: {},
+    });
+  }
+  if (users[user_id] == undefined) {
+    return res.json({ msg: "Error: name does not exist", data: {} });
+  }
+  const user_obj = { id: user_id, name: body.name, age: body.age };
+  users[user_id] = user_obj;
+  return res.json({ msg: "Success", data: user_obj })
   //TODO
 });
 // Deleting a User
 app.delete("/user/:user_id", (req, res) => {
+  const user_id = req.params.user_id;
+  if (users[user_id] == undefined)
+    return res.json({ msg: "Error: user doesn't exist" })
+  del_obj = users[user_id]
+  delete users[user_id]
+  return res.json({ msg: "Success", data: { del_obj } });
+}
   //TODO
-});
+);
