@@ -1,14 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>My Resume Website</title>
+  <title>Evan's Resume Website</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
 </head>
+
 <body>
+  <img id='pic'>
+  <h1 name>Evan Lock</h1>
+  <h2> Introduction </h2>
+  <div id='intro'></div>
+  <h2>Education</h2>
+  <ul id='education'></ul>
+  <h2>My Experience</h2>
+  <ul id='experience'></ul>
+  <h2>Interests</h2>
+  <ul id='interests'></ul>
+  <h2>Contact Information</h2>
+  <ul id='contact'></ul>
+  <h2>Address</h2>
+  <ul id='address'></ul>
   <script>
-    // add the resume object here
+    var jsonresume = {
+      "basics":
+      {
+        "name": "Evan Lock",
+        "image": "https://www.linkedin.com/in/evan-lock-746a09186/",
+        "email": "lock.evan@gmail.com",
+        "phone": "(512) 643-4139",
+        "summary": "Evan is a sophomore at UT Austin in the Business Honors Program studying Management Information Systems and pursuing a certificate in Elements of Computing.",
+        "location":
+        {
+          "address": "17732 Box Canyon Terrace",
+          "postalCode": "78681",
+          "city": "Round Rock",
+          "countyCode": "US",
+          "region": "Texas"
+        }
+      },
+      "work":
+        [
+          {
+            "name": "LPAlpha",
+            "position": "Software Engineering Intern",
+            "url": "https://www.lpalpha.com/",
+            "startDate": "2021-06-01",
+            "endDate": "Present",
+            "summary": "Develop a tool that parses through limited partner agreements to locate specific keywords used in calculating financial return"
+          },
+          {
+            "name": "H-E-B",
+            "position": "Cashier",
+            "url": "https://www.heb.com/",
+            "startDate": "2019-08-01",
+            "endDate": "2021-08-10",
+            "summary": "Trained checkers and customer service assistants in cash handling, parking lot management, and store procedures"
+          }
+        ],
+      "education":
+        [
+          {
+            "institution": "The University of Texas at Austin",
+            "url": "https://www.utexas.edu/",
+            "area": "Management Information Systems",
+            "studyType": "Bachelor",
+            "startDate": "2020-08-25",
+            "endDate": "2024-05-18"
+          }
+        ],
+      "interests": [
+        {
+          "name": "Baking"
+        },
+        {
+          "name": "E-sports"
+        },
+        {
+          "name": "Live Music"
+        },
+        {
+          "name": "Personal Finance"
+        }]
+    }
+    resume = JSON.parse(JSON.stringify(jsonresume));
+    img = document.getElementById('pic')
+    img.setAttribute('src', resume.basics.image)
+    intro = document.getElementById('intro')
+    intro.innerHTML = resume.basics.summary
+    education = document.getElementById('education')
+    for (const school of resume.education) {
+      a = document.createElement('a')
+      a.innerHTML = school.institution
+      a.setAttribute('href', school.url)
+      education.appendChild(a)
+      ul = document.createElement('ul')
+      study = document.createElement('li')
+      study.innerHTML = school.studyType + ' in ' + school.area
+      ul.appendChild(study)
+      date = document.createElement('li')
+      date.innerHTML = school.startDate + ' to ' + school.endDate
+      ul.appendChild(date)
+      education.appendChild(ul)
+    }
+    experience = document.getElementById('experience')
+    for (const job of resume.work) {
+      a = document.createElement('a')
+      link = document.createTextNode(job.name)
+      a.appendChild(link)
+      a.href = job.url
+      experience.appendChild(a)
+      ul2 = document.createElement('ul')
+      date = document.createElement('li')
+      date.innerHTML = job.startDate + 'to ' + job.endDate
+      ul2.appendChild(date)
+      pos = document.createElement('li')
+      pos.innerHTML = job.position
+      ul2.appendChild(pos)
+      summary = document.createElement('li')
+      summary.innerHTML = job.summary
+      ul2.appendChild(summary)
+      experience.appendChild(ul2)
+    }
+    interests = document.getElementById('interests')
+    for (const interest of resume.interests) {
+      hobby = document.createElement('li')
+      hobby.innerHTML = interest.name
+      console.log(interest.name)
+      interests.appendChild(hobby)
+    }
+    contact = document.getElementById('contact')
+    a = document.createElement('a')
+    link = document.createTextNode(resume.basics.email)
+    a.appendChild(link)
+    a.href = resume.basics.email
+    contact.appendChild(a)
+    phone = document.createElement('div')
+    phone.innerHTML = resume.basics.phone
+    contact.appendChild(phone)
+    address = document.getElementById('address')
+    address.innerHTML = resume.basics.location.address + ', ' + resume.basics.location.city + ', ' + resume.basics.location.region + ' ' + resume.basics.location.postalCode
   </script>
 </body>
+
 </html>

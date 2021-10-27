@@ -51,7 +51,17 @@ app.post("/users", async (req, res) => {
     return res.send({ msg: "Success", data: data });
   }
 });
-
+app.get("/users/:cutoff", async (req, res) => {
+  const snapshot = await db.collection("users").get();
+  const users = [];
+  const cutoff = req.params.cutoff
+  snapshot.forEach((doc) => {
+    if (doc.data().age > cutoff) {
+      users.push(doc.data());
+    }
+  });
+  return res.json({ msg: "Success", data: users });
+});
 // OPTIONAL: Write a function to delete users from the database
 // OPTIONAL: Write a function to update user information
 
