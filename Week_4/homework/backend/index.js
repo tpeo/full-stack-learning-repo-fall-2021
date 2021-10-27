@@ -114,7 +114,7 @@ app.delete("/user/:user_id", (req, res) => {
   const user_id = req.params.user_id;
   if (users[user_id] == undefined)
     return res.json({ msg: "Error: user doesn't exist" })
-  del_obj = users[user_id]
+  let del_obj = users[user_id]
   delete users[user_id]
   return res.json({ msg: "Success", data: { del_obj } });
 }

@@ -1,0 +1,58 @@
+{
+    "basics": {
+        "name": "Evan Lock",
+        "image": "https://www.linkedin.com/in/evan-lock-746a09186/",
+        "email": "lock.evan@gmail.com",
+        "phone": "(512) 643-4139",
+        "summary": "Evan is a sophomore at UT Austin in the Business Honors Program studying Management Information Systems and pursuing a certificate in Elements of Computing.",
+        "location": {
+            "address": "17732 Box Canyon Terrace",
+            "postalCode": "78681",
+            "city": "Round Rock",
+            "countyCode": "US",
+            "region": "Texas"
+        }
+    },
+    "work": [
+        {
+            "name": "LPAlpha",
+            "position": "Software Engineering Intern",
+            "url": "https://www.lpalpha.com/",
+            "startDate": "2021 - 06 - 01",
+            "endDate": "Present",
+            "summary": "Develop a tool that parses through limited partner agreements to locate specific keywords used in calculating financial return"
+        },
+        {
+            "name": "H-E-B",
+            "position": "Cashier",
+            "url": "https://www.heb.com/",
+            "startDate": "2019 - 08 - 01",
+            "endDate": "2021 - 08 - 10",
+            "summary": "Trained checkers and customer service assistants in cash handling, parking lot management, and store procedures"
+        }
+    ],
+    "education": [
+        {
+            "institution": "The University of Texas at Austin",
+            "url": "https://www.utexas.edu/",
+            "area": "Management Information Systems",
+            "studyType": "Bachelor",
+            "startDate": "2020-08-25",
+            "endDate": "2024-05-18"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Baking"
+        },
+        {
+            "name": "E-sports"
+        },
+        {
+            "name": "Live Music"
+        },
+        {
+            "name": "Personal Finance"
+        }
+    ]
+}

@@ -9,17 +9,18 @@
 
 <body>
 	<div id='main-container'>
-		<div id='current'>
-			<h4 id='day'></h4>
-			<h2 id='title'></h2>
-			<br>
-			<br>
-			<h1 id='weather'></h1>
-			<img id='pic'>
-			<h1 id='temp'></h1>
-			<h6 id='aqi'></h6>
-		</div>
 		<div id='weather-container'>
+			<div id='current'>
+				<h4 id='day'></h4>
+				<h2 id='title'></h2>
+				<br>
+				<br>
+				<h1 id='weather'></h1>
+				<h1 id='temp'></h1>
+				<h6 id='aqi'></h6>
+			</div>
+			<img id='pic'>
+			<div id='forecast'></div>
 		</div>
 	</div>
 	<div id='side-container'>
@@ -143,8 +144,7 @@
 		//pic.setAttribute('src', 'icons/' + weatherData.current.weather[0].icon + '.svg')
 		degrees = document.getElementById('temp')
 		degrees.innerHTML = Math.round(weatherData.current.temp) + '°'
-		let weatherContainer = document.getElementById('weather-container')
-		console.log(weatherData.daily.length)
+		let forecast = document.getElementById('forecast')
 		weatherData.daily.forEach((days, index) => {
 			console.log(index)
 			if (index >= 0 && index < 5) {
@@ -152,16 +152,20 @@
 				flex.setAttribute('class', 'card')
 				date = document.createElement('h4')
 				date.innerHTML = formatDate(index + 1)
+				date.setAttribute('class', 'date')
 				flex.appendChild(date)
 				conditionPic = document.createElement('img')
 				let img = 'icons/' + days.weather[0].icon + '.svg'
 				conditionPic.src = img
 				flex.appendChild(conditionPic)
 				// attaches the list item elements to search-results-list
+				line = document.createElement('br')
+				flex.appendChild(line)
 				highLow = document.createElement('h2')
 				highLow.innerHTML = Math.round(days.temp.max) + '° to ' + Math.round(days.temp.min) + '°'
+				highLow.setAttribute('class', 'highlow')
 				flex.appendChild(highLow)
-				weatherContainer.appendChild(flex)
+				forecast.appendChild(flex)
 			}
 		})
 	}

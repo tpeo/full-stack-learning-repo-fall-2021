@@ -30,32 +30,38 @@ img[src] {
   align-items: center;
   background-color: #87b7ff;
 }
-
+#day {
+  font-size: 16px;
+}
 #weather-container {
+  height: 60%;
+  width: 90%;
+  text-align: left;
+}
+#forecast {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  height: 60%;
-  width: 90%;
 }
-/*.card {
-  height: 220px;
-  width: 177px;
-  left: 0px;
-  top: 0px;
-  border-radius: 5px;
-  position: absolute;
-  background: #FFFFFF;
-  border: 1px solid #0075FF;
-  box-sizing: border-box;
+#temp {
+  font-size: 45px;
 }
-*/
+#weather {
+  font-size: 20px;
+}
+#pic {
+  height: 200px;
+  width: 200px;
+}
 .card {
   box-sizing: border-box;
   background: #FFFFFF;
   border: 1px solid #0075FF;
   border-radius: 5px;
+  padding: 25px; 
+  margin-right: 12px;
+  width: 20%;
 }
 #side-container {
   height: 100%;
@@ -86,12 +92,15 @@ img[src] {
   font-weight: bold;
   cursor: pointer;
 }
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
+.date {
+  font-size: 8px;
 }
-.flex-item {
-  background-color: red;
+.highlow {
+  font-size: 12px;
+}
+.cardpic {
+  height: 25px;
+  width: 25px;
+  top: 20px;
+  left: 20px;
 }
