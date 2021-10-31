@@ -4,19 +4,20 @@
 # Materials
 
 - [Week 6 Backend Slides](https://docs.google.com/presentation/d/1Tdx5eecNcbTzh-zfqAhKxoNq6zOCcDbaNgryTzVrUpY/edit?usp=sharing)
-- [Week 6 Frontend Slides]((https://docs.google.com/presentation/d/1Tdx5eecNcbTzh-zfqAhKxoNq6zOCcDbaNgryTzVrUpY/edit?usp=sharing))
+- [Week 6 Frontend Slides](https://docs.google.com/presentation/d/1bM2j7-tuf_L5ugvYeFaloZi0bIqFHgiEdKHAMquKqGA/edit?usp=sharing)
 
 
 # Week 5 Homework Solution
 
 - [Week 5 Backend Homework Solution](https://github.com/tpeo/full-stack-learning-repo-fall-2021/blob/main/Week_5/homework/backend/index_solution.js)
+- [Week 4 Frontend Homework Solution](https://codesandbox.io/s/to-do-complete-vrxzf?file=/src/components/Header/Header.js)
 
 # Homework
 Now that you have created a basic to do app. The next step is to connect it to a backend so that anybody can use your app wherever they are! You will need to implement routing, connect to the server to retrieve different tasks and include authentication. If you have any questions, feel free to contact us! 
 
 ## Instructions
 Make sure you have a text editor installed on your machine.
-1. Bring the code for your previous homework, the to do app, into this week's homework directory by copying the src and public folders and the package.json file. Do not copy over the node_modules folder.  
+1. Bring the code for your previous homework, the to do app, into this week's homework directory by copying the src and public folders and the package.json file. Do not copy over the node_modules folder. If you have not compelted the week 4 HW, go ahead and use the code from the completed solutions. 
 2. Review the [documentation for React Router by reading the quick start and primary components guides as well as the documentation for the useHistory Hook.] (https://reactrouter.com/web/guides/quick-start)
 3. Open the terminal in the homework/frontend directory and run npm install to install dependencies for the website. Make sure that React-Router is one of the listed dependencies in package.json. 
 4. Once all the dependencies are installed, run the application by running `npm start`. Your to do app should appear.
