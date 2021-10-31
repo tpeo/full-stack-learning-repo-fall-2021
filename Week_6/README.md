@@ -1,6 +1,5 @@
 
 # Week 6: Authentication/ Advanced React
-# Week 6: Authentication/Advanced React
 
 # Materials
 
