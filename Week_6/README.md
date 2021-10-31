@@ -4,7 +4,7 @@
 # Materials
 
 - [Week 6 Backend Slides](https://docs.google.com/presentation/d/1Tdx5eecNcbTzh-zfqAhKxoNq6zOCcDbaNgryTzVrUpY/edit?usp=sharing)
-- [Week 6 Frontend Slides]([Week 6 Backend Slides](https://docs.google.com/presentation/d/1Tdx5eecNcbTzh-zfqAhKxoNq6zOCcDbaNgryTzVrUpY/edit?usp=sharing))
+- [Week 6 Frontend Slides]((https://docs.google.com/presentation/d/1Tdx5eecNcbTzh-zfqAhKxoNq6zOCcDbaNgryTzVrUpY/edit?usp=sharing))
 
 
 # Week 5 Homework Solution
