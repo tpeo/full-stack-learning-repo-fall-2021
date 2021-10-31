@@ -10,7 +10,7 @@
 - [Week 4 Backend Homework Solution](https://github.com/tpeo/full-stack-learning-repo-fall-2021/blob/Week_5/Week_4/homework/backend/index_solution.js)
 - [Week 4 Frontend Homework Solution](https://codesandbox.io/s/to-do-complete-vrxzf?file=/src/components/Header/Header.js)
 
-# Firebase Cloud Functions
+# In Class Activity (Backend)
 
 To get y'all more familiar with Firebase hosting, we've added an hosted application on `/firebase` for y'all to inspect.
 
