@@ -1,4 +1,4 @@
-# Week 8: TWilio/Emails
+# Week 8: Twilio/Emails
 # Materials
 
 - [Week 8 Backend Slides](https://docs.google.com/presentation/d/1dCvImRc0tyUei0R1YWc4yZ4Jm6c4vtLZvT4DAurhqCM/edit?usp=sharing)
