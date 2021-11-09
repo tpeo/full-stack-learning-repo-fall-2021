@@ -1,0 +1,40 @@
+.list-item {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  line-height: 20px;
+  list-style-type: circle;
+  margin: 10px 0px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 3px;
+  /* for the hover animation */
+  transition: all 0.2s ease-in-out;
+}
+
+.icon-container:hover {
+  opacity: 0.6;
+  /* for the hover animation */
+  transform: scale(1.1);
+}
+
+.todo {
+  background-color: #04cc00;
+}
+
+.done {
+  background-color: #0679ff;
+}
+
+.icon {
+  min-width: 12px;
+  width: 100%;
+  height: 100%;
+}

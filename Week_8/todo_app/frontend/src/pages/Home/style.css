@@ -1,0 +1,47 @@
+h2 {
+  padding: 10px;
+}
+
+.summary,
+.input-container {
+  align-self: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-task {
+  height: 32px;
+  width: 300px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.add-button {
+  height: 32px;
+  padding: 0px 15px;
+  border-radius: 50px;
+  border: 1px solid black;
+  background-color: #ed7a11;
+  color: white;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  line-height: 20px;
+  list-style-type: circle;
+}
+
+.logout-button {
+  margin-top: 24px;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
