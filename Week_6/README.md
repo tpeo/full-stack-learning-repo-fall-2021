@@ -17,7 +17,7 @@ Now that you have created a basic to do app. The next step is to connect it to a
 
 ## Instructions
 Make sure you have a text editor installed on your machine.
-1. Bring the code for your previous homework, the to do app, into this week's homework directory by copying the src and public folders and the package-lock.json and package file. Do not copy over the node_modules folder. If you have not compelted the week 4 HW, go ahead and use the code from the completed solutions. 
+1. Bring the code for your previous homework, the to do app, into this week's homework directory by copying the src and public folders and the package-lock.json and package.json file. Do not copy over the node_modules folder. If you have not compelted the week 4 HW, go ahead and use the code from the completed solutions. 
 2. Review the [documentation for React Router by reading the quick start and primary components guides as well as the documentation for the useHistory Hook.](https://reactrouter.com/web/guides/quick-start)
 3. Open the terminal in the homework/frontend directory and run npm install to install dependencies for the website. Make sure that React-Router is one of the listed dependencies in package.json. 
 4. Once all the dependencies are installed, run the application by running `npm start`. Your to do app should appear.
