@@ -1,11 +1,21 @@
-# Week 4: Databases/React
+# Week 4: React
 
 # Materials
-- [Week 4 Backend Slides](https://docs.google.com/presentation/d/1QWH8SWW4XTUI_A3LhbsWsWAac1_Zl3kLXFMAjeQJszo/edit?usp=sharing)
-- [Week 4 Frontend Slides](https://docs.google.com/presentation/d/1m7bhkKPdljzQkA8vNb4yvRUpdg72j7WQnrpltOcWQlU/edit?usp=sharing)
+- [Day 7 Slides](https://docs.google.com/presentation/d/1qJv3xzeoCAw2IVXkA0gxWupK4cgK2bLHqBhOaYazjEM/edit?usp=sharing)
 
-# Week 3 Homework Solution
-https://codesandbox.io/s/weather-complete-542y5
+# Setting up React and create-react-app
+
+Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
+
+It sets up your development environment so that you can use the latest JavaScript features, provides a nice developer experience, and optimizes your app for production. You’ll need to have Node >= 14.0.0 and npm >= 5.6 on your machine - install it from https://nodejs.org/en/ if you don't already have it installed.
+
+Then, run:
+
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
 
 # Homework
 If you have not completed the in-class activity for the backend class, please complete it as homework. If you have any questions, please contact us! For the frontend homework this week, our goal is to create a to do app using React. 
