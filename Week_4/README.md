@@ -3,6 +3,10 @@
 # Materials
 - [Day 7 Slides](https://docs.google.com/presentation/d/1qJv3xzeoCAw2IVXkA0gxWupK4cgK2bLHqBhOaYazjEM/edit?usp=sharing)
 
+# Debugging Session
+https://codesandbox.io/s/react-bugs-ho0ttf?file=/src/App.js
+
+The following are some examples of common mistakes made for the useEffect and useState React hooks. See if you can spot the bugs, why they occur, and any potential solutions.
 # Setting up React and create-react-app
 
 Create React App is a comfortable environment for learning React, and is the best way to start building a new single-page application in React.
