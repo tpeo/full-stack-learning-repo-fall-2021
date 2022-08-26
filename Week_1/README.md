@@ -33,9 +33,25 @@ Make sure you have a text editor installed (ie. vscode) on your machine before p
 5. Save your HTML file and reflect on your masterpiece.
 
 # HW # 2: Git Katas
-TODO
+It is now time to grow and sharpen your skills with Git! It's a very useful skill that is always better
+to learn now versus later :) 
+Git Katas: https://github.com/eficode-academy/git-katas
+
 ## Instructions
-TODO 
+To set up the Git Katas, follow the instructions on the README of the repo linked above.
+Here are some general instructions for set up:
+1. Once in the appropriate directory, clone the repo by typing "git clone https://github.com/praqma-training/git-katas.git" 
+into the terminal.
+2. cd into git-katas
+3. Choose and cd into the desired exercise
+4. Once in the exercise directory run the set-up script by typing ". ./setup.sh" in the terminal.
+5. Follow the instructions for the exercise to completion!
+
+In class, we are planning to demo the "Basic Commits" and "Basic Staging" exercises. Please complete those if
+you did not make it to class and on your own complete (at least) the following exercises (feel free to do more!):
+- Basic Branching
+- Basic Revert
+- Merge Conflict
 
 # Additional Resources
 - [HTML Tags Cheat Sheet ](https://html.com/wp-content/uploads/html5_cheat_sheet_tags.png) 
@@ -46,3 +62,4 @@ TODO
    - [basic-staging](https://github.com/eficode-academy/git-katas/tree/master/basic-staging)
    - [basic-branching](https://github.com/eficode-academy/git-katas/tree/master/basic-branching)
    - [basic-revert](https://github.com/eficode-academy/git-katas/tree/master/basic-revert)
+   - [basic-merge-conflict](https://github.com/eficode-academy/git-katas/tree/master/merge-conflict)
