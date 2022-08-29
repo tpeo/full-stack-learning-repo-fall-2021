@@ -38,46 +38,31 @@ To deploy the functions to your cloud ...
 For more information visit the [Firebase Website](https://firebase.google.com/docs/hosting/test-preview-deploy)
 
 # Homework
-If you have not completed the in-class activity for the backend class, please complete it as homework. We are reaching the midpoint of the course, so please [fill out the this survey to help us improve the class in the future!](https://docs.google.com/forms/d/e/1FAIpQLSd0_nwS1k-JYjLmUDY2hWe2qswObU3ZzwXQuPULE0W9NmPnZQ/viewform?usp=sf_link) 
-
-In addition, *engineering fellows please share the link to your personal GitHub repository for this class on Slack by this Saturday evening.* We will begin grading your existing homework, so please take this week to complete any homework that you have not yet finished! 
-
-This week's activity will have some connection to last week as you are still writing your ExpressJS REST API, but instead of using a JSON object as a database, we'll be connecting to Firebase and more specifically, Firestore.
-
-Like last week, we're still dealing with a user database with name and age. Additionally, we have already written two functions for you (GET all users and CREATE a new user). **We want you to extend the functionality of the API by writing an API endpoint to query users in the database, returning users whose age is above a certain query value.**
-
-Some questions to consider before starting this assignment:
-
-- What type of request should this be (GET,POST, PUT, etc)?
-- How should I get the age (query param, body, etc)?
+For the frontend homework this week, our goal is to create a to do app using React. In the end, it should look like [this](https://www.figma.com/file/EP26zpvSwnc7k7Il8PCajM/To-Do-App?node-id=0%3A1).
 
 ## Instructions
 
-Make sure you have a firebase account and created a project with the Firestore database checked
-
-1. Download and save a private credential key by navigating towards your project dashboard -> settings -> service accounts -> generate private key
-2. Store your private key in an environment variable, json, etc
-
 Make sure you have a text editor installed on your machine.
 
-1. Open your text editor of choice inside the homework/backend directory.
-2. Open the terminal in the homework/frontend directory and run `npm install` to install dependencies.
-3. Once all the dependencies are installed, run the application by running `npm run dev`. A message with `Listening on Port 4000` should appear.
-4. Write code for index.js that will meet the requirements.
-5. Save the completed site.
-6. Once done, save and push your code to the forked repository.
+1. Open your text editor of choice inside the homework/frontend directory.
+2. Open the terminal in the homework/frontend directory and run npm install to install dependencies for the website.
+3. Once all the dependencies are installed, run the application by running "npm start". A website with a header Blank Name's site should appear.
+4. Write code in that implements the todo app.
+5. Save the completed site & push it to your repo.
 
 ## Requirements
 
-- A function that returns users in the firestore database over a queried age
-- Optional: write the PUT and DELETE methods for users using the Firestore/Firebase SDK
-- Optional: connect the Express app to a firebase project and host it on Firebase Functions
+- Modify the Home.js file with the following:
+    - Implement two lists, a to do list and a done list. When the check button for each task is clicked, move the task to the done list. Conversely, when the undo button for each task is clicked, move the task back to the to do list.
+    - Render out each task on the two lists by creating a new a ListItem component that accepts props related to its relevant task.
+    - Implement an input field and "add" button that when clicked, should add a task to the to do list. If a task already exists in the to do list, display an alert.
+    - At the very top of the page, display a count of the number of tasks left to do.
+- Modify the header component to display your name instead of BLANK NAME.
 
 ## Things to Google
 
-Good engineers know how to learn on their own. Here are a couple of topics that might be helpful to Google based on this week's lesson:
+Good engineers know how to learn on their own. Here are a couple of topics that might be helpful to Google:
 
-- Firebase Firestore expressJS SDK
-- AWS Lambda Serverless
-- Containerization vs Virtualization
-- Dev Ops
+- Handling form inputs in React
+- HTML alerts
+- Using the src attribute for the  tag to display .svg files
